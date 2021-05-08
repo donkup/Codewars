@@ -1,7 +1,6 @@
 function strCount(str, letter){ 
     let kiekis = 0; 
-    //reikia kaupiamojo kintamojo
-    for (let i = 0; i < str.length; i++) {
+        for (let i = 0; i < str.length; i++) {
       const raide = str[i];
       if(raide === letter){
         kiekis++;
